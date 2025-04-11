@@ -1,0 +1,67 @@
+.profileImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.searchicon{
+    font-size: 20px;
+    margin-left:8px;
+    color:#666;
+    cursor: pointer;
+}
+
+
+.socialicon{
+    font-size: 25px;
+    color: #444;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+
+.topbar{
+    height: 50px;
+    width:100%;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.topleft{
+    flex:3;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topright{
+    flex:3;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topcenter{
+    flex:6;
+}
+
+.sections{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0px;
+    padding:0px;
+}
+.sec{
+   margin-right:20px;
+   font-size:30px;
+   font-weight: 300; 
+   cursor: pointer;
+}
